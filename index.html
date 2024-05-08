@@ -1,0 +1,311 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ¡Twins!</title>
+    <link rel="shortcut icon" href="Assets/twins.png" >
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> 
+
+    <link rel="stylesheet" href="Assets/style.css">
+
+    
+
+</head>
+<body>
+
+<header class="header">
+    
+    
+
+    <a href="#" class="logo"> <i class="fa fa-paw"></i> Twins </a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio<a href="#about">Sobre nosotros</a>
+        <a href="#shop">Tienda</a>
+        <a href="#services">Servicios</a>
+        
+        <a href="#contact">Contactos</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <a href="#" class="fa fa-shopping-cart"></a>
+        <div class="fa fa-user" id="login-btn"></div>    
+    </div>
+    <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input type="text" name="" placeholder="enter your email" id="uname" class="box" required>
+        <input type="password" name="" placeholder="enter your password" id="psw" class="box" required>
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+            <button type="submit" value="sign in" onclick="login()" class="btn">
+                <p id="message"></p> 
+        </div>
+        
+        
+
+        <div class="links">
+            <a href="#">forget password</a>
+            <a href="#">sign up</a>
+        </div>
+    </form>
+    
+    
+    
+
+</header>    
+
+
+<section class="home" id="home">
+
+    
+
+    <div class="content">
+        <h3> <span>Hola,</span> bienvenido a tu pet shop</h3>
+        <a href="#" class="btn">Compra ahora</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="Assets/about_image.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Contenido de </span> pagina</h3>
+        <p>En esta pagina te vamos a ofrecer el servicio de tienda de mascotas, ademas de los servicios que tenemos como peluqueria, cuidados y belleza por un bienestar a tu mascota.</p>
+            <a href="#" class="btn">Leer mas</a>
+    </div>
+
+
+
+</section>
+
+<div class="dog-food">
+
+    <div class="image">
+        <img src="Assets/dog_food.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> Comida para perros</h3>
+        <p>Comida para perros de todo tipo de alimentos.</p>
+        <div class="amount">Desde un 30% a 60% de descuento</div>
+        <a href="#"> <img src="Assets/shop_now_food_dog.jpg" alt=""></a>
+    </div>
+
+</div>
+
+<div class="cat-food">
+
+    <div class="content">
+        <h3> Comida para gatos</h3>
+        <p>comida para gatos de todo tipo de alimentos.</p>
+            <div class="amount">Desde un 30% a 60% de descuento</div>
+        <a href="#"> <img src="Assets/shop_now_food_dog.jpg" alt=""></a>    
+    </div>
+
+    <div class="image">
+        <img src="Assets/cat_food.jpg">
+    </div>
+</div>
+
+<div class="dog-food">
+
+    <div class="image">
+        <img src="Assets/bird_food.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> Comida para pajaros</h3>
+        <p>Comida para pajaros de todo tipo de alimentos.</p>
+        <div class="amount">Desde un 30% a 60% de descuento</div>
+        <a href="#"> <img src="Assets/shop_now_food_dog.jpg" alt=""></a>
+    </div>
+
+</div>
+
+<div class="cat-food">
+
+    <div class="content">
+        <h3> Comida para peces</h3>
+        <p>comida para peces de todo tipo de alimentos.</p>
+            <div class="amount">Desde un 30% a 60% de descuento</div>
+        <a href="#"> <img src="Assets/shop_now_food_dog.jpg" alt=""></a>    
+    </div>
+
+    <div class="image">
+        <img src="Assets/pez_food.jpg">
+    </div>
+</div>
+
+<section class="shop" id="shop">
+
+    <h1 class="heading"> Nuestros<span> productos</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_01.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Cat-chow</h3>
+                <div class="amount"> 15.000</div>
+            </div>  
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_02.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Dogourmet adulto</h3>
+                <div class="amount"> 20.000</div>
+            </div>  
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_03.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Pedigree</h3>
+                <div class="amount"> 13.000</div>
+            </div>  
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_04.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Cani</h3>
+                <div class="amount"> 16.000</div>
+            </div>  
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_05.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Whiskas</h3>
+                <div class="amount"> 11.000</div>
+            </div>  
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa fa-shopping-cart"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="Assets/producto_06.jpg" alt="">
+            </div>  
+            <div class="content">
+                <h3>Chiki</h3>
+                <div class="amount"> 12.000</div>
+            </div>  
+        </div>
+
+    </div>   
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Nuestros <span>servicios</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fa fa-dog"></i>
+            <h3>Cuidado para mascotas</h3>
+            <a href="#" class="btn">Leer mas</a>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-cat"></i>
+            <h3>Belleza y baño para mascotas</h3>
+            <a href="#" class="btn">Leer mas</a>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-bath"></i>
+            <h3>Peluqueria para mascotas</h3>
+            <a href="#" class="btn">Leer mas</a>
+        </div>
+    </div>
+
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="Assets/contact_img.jpg" alt="">
+    </div>
+
+    <form actions="">
+        <h3>Contactanos</h3>
+        <input type="text" placeholder="Tu nombre" class="box">
+        <input type="email" placeholder="Tu email" class="box">
+        <input type="number" placeholder="Tu numero de telefono" class="box">
+        <textarea name="" placeholder="Tu mensaje al mundo XDE" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar mensaje" class="btn">
+    </form>
+</section>
+
+<section class="footer">
+
+    
+    <div class="share">
+        <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> Facebook </a>
+        <a href="#" class="btn"> <i class="fab fa-twitter"></i> Twitter </a>
+        <a href="#" class="btn"> <i class="fab fa-instagram"></i> Instagram </a>
+    </div>
+
+    <div class="credit"> Creado por <span> Brandon Quintero & Maria Angel Restrepo </span> | ¡Nuestros derechos son reservados! </div>
+</section>
+
+
+
+
+
+<script src ="Assets/script.js"></script>
+</body>
+</html>
